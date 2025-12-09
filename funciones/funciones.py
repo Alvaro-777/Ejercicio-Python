@@ -32,7 +32,17 @@ def equipos(datosliga) -> set:
         equipos.add(partido["Team 2"])
     return equipos
 
+def infoEquipos (datosLiga: list,equipos: set) -> list[tuple]:
+    return list() 
 
+def quienGana(resultado) -> int:
+    return 0
+
+def puntos(info: list) -> int:
+    return 0
+
+def clasificacion(datos: list) -> list:
+    return list() 
 
 #---------------------------------------------
 
