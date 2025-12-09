@@ -15,7 +15,7 @@ def leerPartidos() -> list:
 
 datosliga = leerPartidos()
 
-def Equipos(datosliga) -> set:
+def equipos(datosliga) -> set:
     equipos = set()
     for partido in datosliga:
         equipos.add(partido["Team 1"])
