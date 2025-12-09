@@ -17,8 +17,8 @@ datosliga = leerPartidos()
 
 def equipos(datosliga) -> set:
     """
-    Recibe la lista de diccionarios generado a partir de la 
-    función anterior, genera los datos de la clasificación y los imprime por pantalla.
+    Función que recibe la lista de diccionarios con los datos 
+    de la liga y devuelve un conjunto con los equipos de la liga.
     
     :param datosliga: Le pasamos los datos extraidos del csv
     :return: Retorna los equipos
