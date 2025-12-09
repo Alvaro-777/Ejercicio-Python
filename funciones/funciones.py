@@ -13,7 +13,9 @@ def leerPartidos() -> list:
     fCSV.close()
     return content
 
-datosliga = leerPartidos()
+def impClasificacionLiga(liga) -> None:
+    equipos(liga)
+
 
 def equipos(datosliga) -> set:
     """
@@ -29,3 +31,10 @@ def equipos(datosliga) -> set:
         equipos.add(partido["Team 1"])
         equipos.add(partido["Team 2"])
     return equipos
+
+
+
+#---------------------------------------------
+
+datosliga = leerPartidos()
+impClasificacionLiga(datosliga)
